@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh" style="font-family:Microsoft YaHei;text-decoration:none">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>联系我</title>
+    <script type="text/javascript" src="/including/head.js"></script>
+    <style type="text/css">
+    .rec {
+    width:
+        50%;
+    font-size:
+        1em;
+    background-color:
+        rgba(255,
+            255,
+            255,
+            0.75);
+    border:
+        5px solid #FFFFFF;
+    color:
+        #000000;
+    border-radius:
+        30px;
+    margin:
+        100px;
+    padding-bottom:
+        30px;
+}
+div.rec>h1 {
+    font-size:
+        34px;
+}
+
+.ipt {
+    width:
+        50%;
+    height:
+        10%;
+    font-size:
+        24px;
+    border-radius:
+        10px;
+    border:
+        rgb(20,
+            80,
+            126) 1px solid;
+    transition:
+        all .3s ease-in-out;
+    padding-left:
+        5px;
+}
+
+.ipt:focus {
+    border:
+        rgb(0,
+            120,
+            215) 1px solid;
+    width:
+        80%;
+    transition:
+        all .2s ease-in-out;
+}
+
+.ipt:hover {
+    border:
+        rgb(0,
+            120,
+            215) 1px solid;
+    width:
+        80%;
+    transition:
+        all .2s ease-in-out;
+}
+
+textarea {
+    width:
+        50%;
+    font-size:
+        14px;
+    padding-left:
+        5px;
+    border-radius:
+        10px;
+    border:
+        rgb(20,
+            80,
+            126) 1px solid;
+    transition:
+        all .2s ease-in-out;
+    height:
+        85px;
+}
+
+textarea:focus {
+    border:
+        rgb(0,
+            120,
+            215) 1px solid;
+    width:
+        80%;
+    transition:
+        all .2s ease-in-out;
+}
+
+textarea:hover {
+    border:
+        rgb(0,
+            120,
+            215) 1px solid;
+    width:
+        80%;
+    transition:
+        all .2s ease-in-out;
+}
+    </style>
+</head>
+
+<body>
+    <script src="https://recaptcha.net/recaptcha/api.js" async defer type="text/javascript"></script>
+    <script src="/including/body.js" type="text/javascript"></script>
+    <div class="rec">
+        <h1>联系我</h1>
+        <a href="/donate.html" title="我觉得没人会点">捐赠我</a><br><br><br>
+        <input placeholder="  称呼" type="text" required autocomplete="off" class="ipt" id="name"><br><br>
+        <input placeholder="  联系方式" type="text" required autocomplete="off" class="ipt" id="connect"><br><br>
+        <textarea placeholder="  内容" type="text" required="required" id="content"
+            style="font-family: Helvetica;height: 100px;resize: none;"></textarea><br><br>
+        <input type="checkbox" id="isbugreport" onchange="collectinfo()">这是一次Bug提交(勾选后，我们将收集部分您的运行环境信息(虽然说好像交不上去的亚子))
+        <br><br>
+        <div class="g-recaptcha" data-sitekey="6Lf5Br4ZAAAAAA7rY1bmg78yYdp3W4zVRn8QqY5q" data-callback="succeedVerified"
+            data-expired-callback="expired" data-error-callback="failed"></div>
+        <br><br>
+        <button onclick="alert('QQ：2705699454(小号)\n微信除了钱包功能我都不用，别找我要微信。\n邮箱:ilovecpp@qq.com')">其他联系方式</button>
+        <button onclick="send()">提交这份表格</button>
+    </div>
+    <script type="text/javascript">
+        var Verification = false;
+        var succeedVerified = function (args) {
+            var Verification = true;
+            console.log('reCAPTCHA Verification Passed!');
+        };
+        var expired = function (args) {
+            var Verification = false;
+            window.alert("人机身份验证过期！\nreCAPTCHA Verification Has Been Expired!");
+            console.log('reCAPTCHA Verification Has Been Expired!');
+        };
+        var failed = function (args) {
+            var Verification = false;
+            window.alert("人机身份验证失败！\nreCAPTCHA Verification Failed!");
+            console.log('reCAPTCHA Verification Failed!');
+        };
+        function send() {
+            var name = document.getElementById("name");
+            var connect = document.getElementById("connect");
+            var content = document.getElementById("content");
+            var isBugReport = document.getElementById("isbugreport");
+            if (name.value == "" || connect.value == "" || content.value == "") { window.alert("请您完整填写表单！"); return; }
+            if (Verification == false) { window.alert("未进行人机身份验证或人机身份验证过期或不通过！"); return; }
+            var location = "http://" + document.domain + "/recieve.asp?" + "name=" + name.value + "&connect=" + connect.value + "&content=" + content.value;
+            if (isBugReport.value == "on") {
+                location = location + "&ibr=" + isBugReport.value + "&UserAgent=" + navigator.userAgent + "&Platform=" + navigator.platform;
+            }
+            window.location.href = location;
+        }
+    </script>
+    <hr>
+    <br><br><br><br><br>
+</body>
+
+</html>

@@ -1,0 +1,351 @@
+文件夹 PATH 列表
+卷序列号为 000000A8 585D:4074
+C:.
+│  about.html
+│  connect.html
+│  donate.html
+│  favicon.ico
+│  index.html
+│  index[old].html
+│  recieve.asp
+│  redirect.php
+│  sitemap.txt
+│  stylesheet.css
+│  web.config
+│  
+├─api
+│      bing_daily_img_proxy.php
+│      qm_recommend_proxy.php
+│      web.config
+│      
+├─Aria2
+│  │  aria2.conf
+│  │  aria2c.exe
+│  │  AUTHORS
+│  │  ChangeLog
+│  │  COPYING
+│  │  dht.dat
+│  │  LICENSE.OpenSSL
+│  │  NEWS
+│  │  README.html
+│  │  README.mingw
+│  │  
+│  └─Manage
+│          Boot.bat
+│          Restart.bat
+│          Start.bat
+│          Start.vbs
+│          Status.bat
+│          Stop.bat
+│          
+├─AriaNG
+│  │  favicon.ico
+│  │  favicon.png
+│  │  index.html
+│  │  index.manifest
+│  │  LICENSE
+│  │  robots.txt
+│  │  tileicon.png
+│  │  touchicon.png
+│  │  
+│  ├─css
+│  │      aria-ng-70e1362684.min.css
+│  │      bootstrap-3.4.1.min.css
+│  │      plugins-ccac6fc3fc.min.css
+│  │      
+│  ├─fonts
+│  │      fontawesome-webfont.eot
+│  │      fontawesome-webfont.svg
+│  │      fontawesome-webfont.ttf
+│  │      fontawesome-webfont.woff
+│  │      fontawesome-webfont.woff2
+│  │      
+│  ├─js
+│  │      angular-packages-1.6.10.min.js
+│  │      aria-ng-dfb61f6a8d.min.js
+│  │      bootstrap-3.4.1.min.js
+│  │      echarts-common-3.8.5.min.js
+│  │      jquery-3.3.1.min.js
+│  │      moment-with-locales-2.24.0.min.js
+│  │      plugins-f83264e458.min.js
+│  │      
+│  └─langs
+│          zh_Hans.txt
+│          zh_Hant.txt
+│          
+├─dl
+│  │  401-V1.2-Optimized.htm
+│  │  403-V1.1-Optimized.htm
+│  │  404-V1.0.zip
+│  │  404-V1.2-Optimized.htm
+│  │  500-V1.0.htm
+│  │  Aria2AutoStartSchedule.xml
+│  │  BlockInput.exe
+│  │  Stack_Overflow.html
+│  │  web.config
+│  │  傻逼快滚.html
+│  │  重定向到AriaNG.html
+│  │  
+│  ├─PWLwC
+│  │      Executable.cpp
+│  │      Executable.exe
+│  │      
+│  ├─PWLwE
+│  │      Executable.cpp
+│  │      Executable.exe
+│  │      
+│  └─？！
+│          drblack-download-hash.html
+│          
+├─img
+│      alipay.jpg
+│      back-to-top.png
+│      by-nc-nd@80x15.png
+│      by-nc-nd@88x31.png
+│      comment_avatar.png
+│      cursor.cur
+│      icon.ico
+│      img0.jpg
+│      initial.jpg
+│      noimage.png
+│      pointer.cur
+│      wechat.jpg
+│      
+├─including
+│  │  body.js
+│  │  head.js
+│  │  jquery-ui.min.js
+│  │  jquery.min.js
+│  │  
+│  └─assets
+│          autoload.js
+│          flat-ui-icons-regular.eot
+│          flat-ui-icons-regular.svg
+│          flat-ui-icons-regular.ttf
+│          flat-ui-icons-regular.woff
+│          live2d.js
+│          live2d.min.js
+│          waifu-tips.js
+│          waifu-tips.json
+│          waifu-tips.min.js
+│          waifu.css
+│          waifu.min.css
+│          
+├─passages
+│  │  indexxxx.html
+│  │  post_comment.php
+│  │  stylesheet.css
+│  │  view_comment.php
+│  │  web.config
+│  │  
+│  ├─20200401
+│  │      index.html
+│  │      nowadays.jpg
+│  │      oldIndex.jpg
+│  │      
+│  ├─20200409
+│  │      index.html
+│  │      myfuckingusb.png
+│  │      
+│  ├─20200410
+│  │      31b204823429e0c8db3456569dd52795bde95120.png@966w_718h.jpg
+│  │      4c8b745e4a6f1bd0f17c4ae25d8b4b230862ec75.png@1246w_1180h.jpg
+│  │      4e6cd9e427c875da72b1c8e55784361be1f83560.png@1320w_996h.jpg
+│  │      5752ac07026b314a8203bb7bcc277e2a64bd0bb1.png@1320w_996h.jpg
+│  │      6cd3fab94e34c00fdee16a7d818405c960ca85c5.png@1320w_1308h.jpg
+│  │      905fed5fa834c5dc0d0a534e456730410676bf65.png@1320w_826h.jpg
+│  │      b7dd464dc8ef2a8d2a7759535137115fe38aeb98.png@1320w_848h.jpg
+│  │      deb523b7b64b6aff5ee2f8c5528b3c472889f7c9.png@1320w_662h.jpg
+│  │      index.html
+│  │      
+│  ├─20200414
+│  │      25defe346977fab4c0b4668ba98ba5cbef635a12.png@1320w_940h.jpg
+│  │      4f2f0a88c6c7804525cf6507384d6e6aaa89c85d.png@792w_404h.jpg
+│  │      5507340017df221192b2b0ffcf3d77568a419d3c.png@1320w_468h.jpg
+│  │      678c71a812820191dd1dd3e06836fa7691fc88d8.png@1320w_702h.jpg
+│  │      86c926f7d2b527373d23fbee32f7c46af4ce4b37.png@1320w_702h.jpg
+│  │      d4558455e551a9c31e8e25219309f22b61080f92.png@1320w_938h.jpg
+│  │      fcfc2fc30b55bc7924e56553122d7225c71312e0.png@1320w_940h.jpg
+│  │      fefb4ac5f8ca924e1de1964a0837c41a84ec5c67.png@1320w_774h.jpg
+│  │      index.html
+│  │      
+│  ├─20200416
+│  │      CUV65~UAKP3_B3RU[BC]ITT.png
+│  │      fuckingmrliu.jpg
+│  │      index.html
+│  │      pdisfree.jpg
+│  │      
+│  ├─20200417
+│  │      10151.jpg
+│  │      10622.jpg
+│  │      10933.jpg
+│  │      aida64.jpg
+│  │      CDM_20200415153952.txt
+│  │      CDM_20200415163824.txt
+│  │      index.html
+│  │      
+│  ├─20200420
+│  │      37.jpg
+│  │      62015c75-784e-45e2-9dd6-8d5973c6d372.gif
+│  │      @ANNZ}C1LM{]1V)[AGI@WI2.jpg
+│  │      HBE{2(D3{EQXRX{]SBB}@6N.jpg
+│  │      index.html
+│  │      init.jpg
+│  │      I]I_5M3O4M{RL}Z$HW`]_GT.jpg
+│  │      K56`0@Q{M~UC_OAF(G4VIH0~1.jpg
+│  │      OHHHHH~1.jpg
+│  │      
+│  ├─20200423
+│  │      2UEME][303~Z~QG0$VR$2XY.png
+│  │      index.html
+│  │      M$X(OB7046A`}X0}@[`[D)F.jpg
+│  │      setting.jpg
+│  │      `_WOW}~)9HG5[5MK@0TURJ.png
+│  │      
+│  ├─20200430
+│  │      12f34b60f4ada343757dc46d198734611aec2f2f.png@1320w_996h.jpg
+│  │      212d18bde8bff5a2e782fcb151b4536d7d84e37d.png@1320w_702h.jpg
+│  │      374d33eb045fb6ba1385a2676bfbf48479d8f184.png@1320w_996h.jpg
+│  │      3f6f64a2cfc745dd88f0660e37c091bf75301e30.png@1320w_936h.jpg
+│  │      42e87010a7ae443a24be2603eacc123eeb0b1182.png@1320w_670h.jpg
+│  │      73fdfea9f782d12bd0fc506d6eaf62f7c7787a30.png@1320w_702h.jpg
+│  │      7415fbda428186dad1e695b40225e394afc541f4.png@1320w_676h.jpg
+│  │      7eb00fe132f2c44c5d40a93f3d43f6b7c1fa555e.png@1320w_1360h.jpg
+│  │      964fd975ccd30311292f88f60cbbae14c61e10a2.png@1320w_670h.jpg
+│  │      adbd0b0fa7b50f134230839d10ecafcfb6f6e909.png@1320w_398h.jpg
+│  │      eddd87b85f8158c15c69e8e8772bf3aac1f999f3.png@1320w_666h.jpg
+│  │      f04d8f0349335beaf7319ff15115c5662c8488fa.png@1320w_702h.jpg
+│  │      f51de6040afd838b7ff607a57f69913af0fdf1e0.png@1320w_666h.jpg
+│  │      f58b05283b8a926fa54743357a0e3d9c670a3cf9.png@1320w_268h.jpg
+│  │      index.html
+│  │      
+│  ├─20200509
+│  │      1589028925371.png
+│  │      index.html
+│  │      
+│  ├─20200511
+│  │      index.html
+│  │      new.jpg
+│  │      old.jpg
+│  │      
+│  ├─20200524
+│  │      IMG_0038.jpg
+│  │      IMG_0120.jpg
+│  │      IMG_0163.jpg
+│  │      index.html
+│  │      
+│  ├─20200601
+│  │      IMG_0169.jpg
+│  │      IMG_0220.jpg
+│  │      index.html
+│  │      
+│  └─20200609
+│          comments.txt
+│          IMG_1.jpg
+│          IMG_2.jpg
+│          index.html
+│          
+└─proj
+    ├─bv_av_transfer
+    │      core.js
+    │      index.html
+    │      
+    ├─chat
+    │  │  index.html
+    │  │  index.js
+    │  │  manifest.json
+    │  │  msg.txt
+    │  │  stylesheet-lagency.css
+    │  │  stylesheet.css
+    │  │  工业化和.txt
+    │  │  
+    │  ├─fonts
+    │  │      font.ed20bba3.woff
+    │  │      ROGFonts-Regular.woff
+    │  │      segoeui.woff
+    │  │      Xolonium-Regular.woff
+    │  │      Xolonium.woff
+    │  │      
+    │  ├─img
+    │  │      background-cool.2257a243.jpg
+    │  │      github hover.svg
+    │  │      github.svg
+    │  │      关于.svg
+    │  │      设置.svg
+    │  │      退出登录.svg
+    │  │      
+    │  └─php
+    │          register.php
+    │          send.php
+    │          test.php
+    │          write.php
+    │          
+    ├─ID-Gen
+    │      index.html
+    │      
+    ├─my_libraries
+    │  ├─material_design
+    │  │      index.htm
+    │  │      index.js
+    │  │      style.css
+    │  │      
+    │  └─新建文件夹
+    ├─qqmusic
+    │      index.html
+    │      index.js
+    │      LICENSE
+    │      proxy.php
+    │      README.md
+    │      stylesheet.css
+    │      
+    ├─sbyx
+    │      bgm.wav
+    │      icon.png
+    │      sbyx.html
+    │      sbyx.png
+    │      stylesheet.css
+    │      
+    ├─Sel_To_Trans
+    │      index.html
+    │      index.js
+    │      jsonp.php
+    │      style.css
+    │      
+    ├─video_player
+    │  │  244913239-1-208.mp4
+    │  │  index.html
+    │  │  index.js
+    │  │  style.css
+    │  │  
+    │  └─img
+    │          bilibili-progress-icon.svg
+    │          lemon-style-progress-icon.svg
+    │          pause.svg
+    │          play.svg
+    │          sync.svg
+    │          
+    ├─win10_notification
+    │      Close icon.svg
+    │      index.html
+    │      index.js
+    │      Info icon.svg
+    │      Settings icon.svg
+    │      style.css
+    │      w10_notification_audio.wav
+    │      w8_notification_audio.wav
+    │      Windows Background.wav
+    │      Windows Foreground.wav
+    │      
+    ├─wintouko
+    │      background.jpg
+    │      icon.png
+    │      index.html
+    │      
+    └─……
+            246490367-1-30216.mp3
+            b_char_dead.mp3
+            index.html
+            index.js
+            v_bat_f_05.mp3
+            野兽先辈.mp3
+            

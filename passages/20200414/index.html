@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>在Windows Server 2012 R2 (GUI)服务器上开IIS</title>
+<meta charset="utf-8" />
+<script src="/including/head.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/passages/stylesheet.css">
+</head>
+
+<body topmargin="0" oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+    <script type="text/javascript" src="/including/body.js"></script>
+    <br>
+
+
+    <div class="passagecontain">
+        <div class="blocktitle">在Windows Server 2012 R2 (GUI)服务器上开IIS<br>How To Enable IIS at Windows Server 2012 R2<br>
+        <small><small>2020/4/14 10:42 分类：随手转发</small></small></div><br><br>
+        <div class="passage">
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+上次，写了Win10开服务器之后，好像有人真的买了一个服务器来开。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+考虑到服务器提供商一般不会提供Windows10安装，所以做了一期Server 2012 R2的。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+我为了做这期专栏还重置了一边服务器(懒得下镜像)...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+请注意：Win Server GUI服务器一般1GB内存妥妥的，512MB可能吃紧，也可能会爆掉。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="86c926f7d2b527373d23fbee32f7c46af4ce4b37.png@1320w_702h.jpg">
+<p>啊啊啊，给个三连吧</p>
+首先，我们得登陆服务器，RDP或者VNC。<br>
+
+现在是正文：
+<img src="4f2f0a88c6c7804525cf6507384d6e6aaa89c85d.png@792w_404h.jpg">
+<p>1.打开服务器管理器，这个一般都固定在任务栏</p>
+<img src="678c71a812820191dd1dd3e06836fa7691fc88d8.png@1320w_702h.jpg">
+<p>2.单击"添加角色或功能"</p>
+<img src="5507340017df221192b2b0ffcf3d77568a419d3c.png@1320w_468h.jpg">
+<p>一直下一步</p>
+<img src="fefb4ac5f8ca924e1de1964a0837c41a84ec5c67.png@1320w_774h.jpg">
+<p>3.勾选"Web服务器(IIS)"，然后会弹出确认对话框，点击确认</p>
+记得勾选"包括管理工具"</p>
+<img src="fcfc2fc30b55bc7924e56553122d7225c71312e0.png@1320w_940h.jpg">
+<p>4.选择"IIS可承载的Web核心"，然后下一步*2</p>
+<img src="fcfc2fc30b55bc7924e56553122d7225c71312e0.png@1320w_940h.jpg">
+<p>5.根据需求选择需要的功能，然后下一步</p>
+<img src="d4558455e551a9c31e8e25219309f22b61080f92.png@1320w_938h.jpg">
+<p>6.确认无误后，点击安装</p>
+&nbsp;&nbsp;&nbsp;&nbsp;
+其实之后的配置就是和Win10的配置差不多了，把东西塞到C:\inetpub\wwwroot下就可以了。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+链接：
+<a href="/passages/20200410/index.html"></a>>点击前往<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+访问服务器IP就可以看到你的页面了。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+请注意：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+有些服务器提供商为了安全，某些端口(一般22，3389，80默认开放)需要自己开放，这里就不做一一解释了<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+这篇文章会同步在我的BiliBili发布<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        </div><br>
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script type="text/javascript" src="/including/footer.js"></script>
+</body>
+</html>
