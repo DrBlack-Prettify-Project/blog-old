@@ -1,0 +1,6 @@
+AccessKey激活方式(括号内为macOS激活方式)：
+Chrome：Alt+key(Control + Alt + key)
+Firefox：Alt + Shift + key(Firefox 57+:Control +  Option + key/Control + Alt + key；On Firefox 14+:Control + Alt + key；Firefox 13-:Control + key)
+Safari:Alt + key(Control + Alt + key)[Safari并没有为Linux提供AccessKey]
+Opera 15+:Alt + key(Control + Alt + key)
+Opera 12:Shift + Esc将打开AccessKey列表，然后选择Key

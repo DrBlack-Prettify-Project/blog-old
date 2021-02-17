@@ -1,0 +1,11 @@
+div.__sel_to_trans_elem{
+    position: fixed;
+    height: 150px;
+    width: 250px;
+    line-height: 3.12px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px;
+    border: 1px rgb(187,187,187) solid;
+    box-shadow: 0 0 10px 0px rgb(187,187,187);
+}

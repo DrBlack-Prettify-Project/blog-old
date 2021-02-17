@@ -1,0 +1,139 @@
+:root {
+  --progressBar-height: 10px;
+  --progressBarInner-Color: rgb(26, 134, 219);
+  --optimizeBarInner-Color: rgb(26, 134, 219);
+}
+div.video {
+  width: 100%;
+  height: fit-content;
+}
+video {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+div#syncTime {
+  width: 45px;
+  height: 45px;
+  background-image: url(./img/sync.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  /* animation: rotateSync 0.5s linear; */
+}
+@keyframes rotateSync {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+div.controls {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  z-index: 1;
+  background-color: #9e9e9ec0;
+  justify-content: center;
+  align-items: center;
+}
+div#playPause {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  left: 0;
+  background-image: url(./img/play.svg);
+  background-position: right;
+  transition: all 0.1s ease-in-out;
+  background-repeat: no-repeat;
+}
+div#progressBar {
+  position: relative;
+  top: -55px;
+  z-index: 2;
+  padding: 0;
+  width: 95%;
+  left: 2.5%;
+  height: var(--progressBar-height);
+  background-color: #9e9e9e;
+  border-radius: 999px;
+}
+div#progressBar > div#progressBarInner {
+  position: relative;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100%;
+  width: 0%;
+  background-color: var(--progressBarInner-Color);
+  border-radius: 999px;
+  transition: all 0.3s ease-in-out;
+}
+div#optimizeBarVol {
+  position: relative;
+  top: 0;
+  height: 3.12px;
+  width: 100px;
+  border-radius: 999px;
+  background-color: #9e9e9e;
+}
+div#optimizeBarVol > div#optimizeBarVolInner {
+  position: relative;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  border-radius: 999px;
+  background-color: var(--optimizeBarInner-Color);
+  transition: all 0.1s ease-in-out;
+}
+div#optimizeBarVolInner > div#optimizeBarVolBall {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-40%) translateX(50%);
+  border-radius: 50px;
+  border: #000 1px solid;
+}
+div#optimizeBarPlayRate {
+  position: relative;
+  top: 0;
+  height: 3.12px;
+  width: 100px;
+  border-radius: 999px;
+  background-color: #9e9e9e;
+}
+div#optimizeBarPlayRate > div#optimizeBarPlayRateBall {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-40%) translateX(50%);
+  border-radius: 50px;
+  border: #000 1px solid;
+}
+#bstyle-prog-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 20px;
+  background: transparent;
+  transform: translateX(25%) translateY(-25%);
+  /* 禁止选择 */
+  -moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

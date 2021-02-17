@@ -1,0 +1,164 @@
+div#w8_notification_frame{
+    background-color: rgb(32,0,104);
+    border: 1px solid transparent;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 30px;
+    width: 400px;
+    height: 75px;
+    padding-left: 10px;
+    animation: w8_notification_popup .3s linear;
+}
+@keyframes w8_notification_popup{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+div#w8_notification_frame>div#w8_notification_title{
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;   
+    position: absolute;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+div#w8_notification_frame>div#w8_notification_content{
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;   
+    position: absolute;
+    top: 50px;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+div#w8_notification_close_btn_frame{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 16px;
+    width: 16px;
+    z-index: 99;
+}
+div#w8_notification_close_btn_frame>embed#w8_notification_close_btn{
+    position: absolute;
+    right: 0;top: 0;
+    height: 16px;
+    width: 16px;
+}
+
+div#w10_notification_frame{
+    background-color: rgba(94, 87, 87, 0.8);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    right: 20px;
+    bottom: 16.18px;
+    width: 350px;
+    height: 100px;
+    padding-left: 10px;
+    animation: w10_notification_popup .3s ease-in-out 0s;
+}
+@keyframes w10_notification_popup{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+div#w10_notification_frame>div#w10_notification_title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;   
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+div#w10_notification_frame>embed#w10_notification_icon{
+    position: absolute;top: 50%;left: 15px;
+    transform: translateY(-50%);
+}
+div#w10_notification_frame>div#w10_notification_content{
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;   
+    position: absolute;
+    color: rgb(169,169,169);
+    top: 40px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+
+
+div#w8_msgbox_frame{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    height: 100px;
+    width: 300px;
+    background-color: rgb(240,200,105);
+    padding: 10px;
+    animation: w8_msgbox_popup .2s ease-in-out 0s;
+}
+@keyframes w8_msgbox_popup{
+    0%{
+        transform: rotateX(5deg)rotateY(5deg)translateX(-50%)translateY(-50%);
+    }
+    100%{
+        transform: rotateX(0deg)rotateY(0deg)translateX(-50%)translateY(-50%);
+    }
+}
+div#w8_msgbox_frame>div#w8_msgbox_title{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+div#w8_msgbox_frame>div#w8_msgbox_close_btn{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background-color: rgb(232,17,35);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div#w8_msgbox_frame>div#w8_msgbox_inner_frame{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 96.8%;
+    height: 73.2%;
+    background-color: rgb(240,240,240);
+}
+div#w8_msgbox_inner_frame>div#w8_msgbox_content{
+    font-size: 12px;
+    width: 100%;
+    height: 56.18%;
+    background-color: #fff;
+    position: relative;
+}
+div#w8_msgbox_inner_frame>div#w8_msgbox_OK_btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: rgb(128,184,249) 1px solid;
+    padding: 3.62px;
+    background: linear-gradient(0deg, rgb(247,243,239),rgb(233,231,228));
+}

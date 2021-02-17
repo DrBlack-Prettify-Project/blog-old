@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.827451 0 0 0 0 0.827451 0 0 0 0 0.827451 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L32 0L32 32L0 32L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Info-icon" filter="url(#filter_1)">
+    <path d="M0 0L32 0L32 32L0 32L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M0 13C0 5.83203 5.83203 0 13 0C20.168 0 26 5.83203 26 13C26 20.168 20.168 26 13 26C5.83203 26 0 20.168 0 13ZM24 13C24 6.91406 19.0859 2 13 2C6.91406 2 2 6.91406 2 13C2 19.0859 6.91406 24 13 24C19.0859 24 24 19.0859 24 13ZM12 7L12 9L14 9L14 7L12 7ZM12 19L12 11L14 11L14 19L12 19Z" transform="translate(3 3)" id="Shape" fill="#0077D7" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

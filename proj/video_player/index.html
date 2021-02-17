@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video">
+        <video id="video">
+            <source src="./244913239-1-208.mp4">
+        </video>
+        <div id="progressBar" onclick="changeTime(event)">
+            <div id="progressBarInner" onclick="changeTime(event)">
+                <embed src="./img/bilibili-progress-icon.svg" id="bstyle-prog-icon">
+            </div>
+        </div>
+        <div class="controls">
+            <div id="playPause"></div>
+            <div id="optimizeBarVol" title="Optimize Volume">
+                <div id="optimizeBarVolInner">
+                    <div id="optimizeBarVolBall" onclick="changeVolume(event)"></div>
+                </div>
+            </div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div id="optimizeBarPlayRate" onclick="changePlayingRate(event)" title="Optimize Playing Rate">
+                <div id="optimizeBarPlayRateBall" onclick="changePlayingRate(event)"></div>
+            </div>
+            <div id="syncTime"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
